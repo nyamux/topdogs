@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Top Dogs - Premium Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #FFD700;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Golden separator styles */
+        .separator {
+            width: 100%;
+            height: 3px; /* Reduced thickness */
+            background-color: #FFD700;
+            margin: 20px 0;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .service {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border: 2px solid #FFD700; /* Added gold border */
+        }
+
+        .service h3 {
+            margin-bottom: 10px;
+            color: #FFD700;
+        }
+
+        .service p {
+            color: white; /* White text inside service blocks */
+        }
+
+        .translations {
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .contact-buttons a {
+            background-color: #FFD700;
+            color: #000;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-buttons a:hover {
+            background-color: #FFA500;
+        }
+
+        footer {
+            background-color: #222;
+            color: #FFD700;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer .contact-buttons {
+            margin-top: 10px;
+        }
+
+        footer .contact-buttons a {
+            margin: 0 10px;
+        }
+
+        @media (min-width: 992px) {
+            .services {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .contact-buttons {
+                flex-direction: column;
+            }
+
+            .contact-buttons a {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>The Top Dogs</h1>
+            <h2>Guaranteed Premium Services</h2>
+        </header>
+
+        <!-- Golden separator under the header -->
+        <div class="separator"></div>
+
+        <section class="services">
+            <div class="service">
+                <h3>Hire a Travel Companion</h3>
+                <p>You can hire a friendly guide to help you with going around town or advise on various things.</p>
+                <div class="translations">
+                    <p>聘请旅伴： 您可以聘请一位友好的导游来帮助您在城里四处走动或就各种事情提供建议。</p>
+                    <p>Mieten Sie einen Reisebegleiter: Sie können einen freundlichen Reiseleiter engagieren, der Ihnen bei der Stadtrundfahrt hilft oder Sie bei verschiedenen Dingen berät.</p>
+                    <p>Assumi un compagno di viaggio: puoi assumere una guida amichevole che ti aiuti a girare la città o ti consigli su varie cose.</p>
+                </div>
+                <div class="contact-buttons">
+                    <a href="mailto:thetopdogs@proton.me">Email</a>
+                    <a href="https://t.me/TheReal254">Telegram</a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Hire a Driver</h3>
+                <p>You can hire a driver for a period or day if you choose.</p>
+                <div class="translations">
+                    <p>雇用司机： 如果您愿意，您可以租用一段时间或一天的司机。</p>
+                    <p>Einen Fahrer mieten: Sie können einen Fahrer für einen bestimmten Zeitraum oder einen Tag mieten, wenn Sie möchten.</p>
+                    <p>Assumi un autista: puoi assumere un autista per un periodo o un giorno, se lo desideri.</p>
+                </div>
+                <div class="contact-buttons">
+                    <a href="mailto:thetopdogs@proton.me">Email</a>
+                    <a href="https://t.me/TheReal254">Telegram</a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Hire a Cook</h3>
+                <p>You can hire a chef for travelling or housing.</p>
+                <div class="translations">
+                    <p>聘请厨师：您可以聘请厨师旅行或住宿。</p>
+                    <p>Stellen Sie einen Koch ein: Sie können einen Koch für Reisen oder Unterkunft einstellen.</p>
+                    <p>Assumi un cuoco: puoi assumere uno chef per viaggiare o alloggiare.</p>
+                </div>
+                <div class="contact-buttons">
+                    <a href="mailto:thetopdogs@proton.me">Email</a>
+                    <a href="https://t.me/TheReal254">Telegram</a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Hire a Housekeeper</h3>
+                <p>You can hire a temporary or permanent housekeeper.</p>
+                <div class="translations">
+                    <p>聘请管家：您可以聘请临时或永久管家。</p>
+                    <p>Stellen Sie eine Haushälterin ein: Sie können eine vorübergehende oder dauerhafte Haushälterin einstellen.</p>
+                    <p>Assumi una governante: puoi assumere una governante temporanea o permanente.</p>
+                </div>
+                <div class="contact-buttons">
+                    <a href="mailto:thetopdogs@proton.me">Email</a>
+                    <a href="https://t.me/TheReal254">Telegram</a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Hire a Companion</h3>
+                <p>You can hire a companion to talk to, hang out with, or play games with.</p>
+                <div class="translations">
+                    <p>雇佣同伴：您可以雇佣同伴交谈、闲逛或一起玩游戏。</p>
+                    <p>Einen Begleiter anheuern: Du kannst einen Begleiter anheuern, mit dem du dich unterhalten, abhängen oder Spiele spielen kannst.</p>
+                    <p>Assumi un compagno: puoi assumere un compagno con cui parlare, uscire o giocare.</p>
+                </div>
+                <div class="contact-buttons">
+                    <a href="mailto:thetopdogs@proton.me">Email</a>
+                    <a href="https://t.me/TheReal254">Telegram</a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Hire a Masseuse</h3>
+                <p>You can hire a personal masseuse for a relaxing massage.</p>
+                <div class="translations">
+                    <p>聘请按摩师：您可以聘请私人按摩师进行放松按摩。</p>
+                    <p>Stellen Sie eine Masseurin ein: Sie können eine persönliche Masseurin für eine entspannende Massage engagieren.</p>
+                    <p>Assumi una massaggiatrice: puoi assumere una massaggiatrice personale per un massaggio rilassante.</p>
+                </div>
+                <div class="contact-buttons">
+                    <a href="mailto:thetopdogs@proton.me">Email</a>
+                    <a href="https://t.me/TheReal254">Telegram</a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Get a Party Planned</h3>
+                <p>We can help plan a party, big or small, official, or unofficial, by using seasoned party planners.</p>
+                <div class="translations">
+                    <p>策划派对：我们可以通过聘请经验丰富的派对策划者来帮助策划一场派对，无论大小、官方或非官方。</p>
+                    <p>Planen Sie eine Party: Wir können Ihnen bei der Planung einer Party helfen, ob groß oder klein, offiziell oder inoffiziell, indem wir erfahrene Partyplaner einsetzen.</p>
+                    <p>Organizza una festa: possiamo aiutarti a pianificare una festa, grande o piccola, ufficiale o non ufficiale, utilizzando organizzatori di feste esperti.</p>
+                </div>
+                <div class="contact-buttons">
+                    <a href="mailto:thetopdogs@proton.me">Email</a>
+                    <a href="https://t.me/TheReal254">Telegram</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Golden separator under the services section -->
+        <div class="separator"></div>
+    </div>
+
+    <footer>
+        <p>Contact Us:</p>
+        <div class="contact-buttons">
+            <a href="mailto:thetopdogs@proton.me">Email</a>
+            <a href="https://t.me/TheReal254">Telegram</a>
+        </div>
+    </footer>
+</body>
+</html>
